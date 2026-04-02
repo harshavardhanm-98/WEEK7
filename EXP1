@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char str1[20] = "Hello", str2[20] = "World", str3[20];
+    printf("Length of str1: %zu\n", strlen(str1));
+    strcpy(str3, str1);
+    printf("str3 (after copy): %s\n", str3);
+    strcat(str1, str2);
+    printf("str1 (after concat): %s\n", str1);
+    if (strcmp(str3, "Hello") == 0)
+        printf("str3 is equal to 'Hello'\n");
+    return 0;
+}
+
+
