@@ -9,6 +9,7 @@ int main() {
     printf("str1 (after concat): %s\n", str1);
     if (strcmp(str3, "Hello") == 0)
         printf("str3 is equal to 'Hello'\n");
+        printf("\nREG NO:25331A05I5");
     return 0;
 }
 
